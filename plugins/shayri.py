@@ -128,7 +128,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import random
 
-from VIPMUSIC import app
+from BADMUSIC import app
 
 # Define the scheduler
 scheduler = AsyncIOScheduler(timezone="Asia/Kolkata")
