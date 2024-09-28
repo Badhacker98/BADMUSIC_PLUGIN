@@ -1,5 +1,5 @@
 import requests
-from MukeshAPI import api
+from BadAPI import api
 from pyrogram import filters
 from pyrogram.enums import ChatAction
 from BADMUSIC import app
