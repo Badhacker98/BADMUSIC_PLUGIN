@@ -2,7 +2,7 @@ import random
 from VIPMUSIC.utils.database import get_served_chats
 from pyrogram import Client, filters
 
-from VIPMUSIC import app
+from BADMUSIC import app
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
