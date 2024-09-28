@@ -2,19 +2,19 @@
   <img src="https://graph.org/file/bda0653b787e7530f5110.jpg">
 </p>
 
-# Extra Plugins For [ʙᴀᴅᴍᴜsɪᴄ](https://github.com/Badhacker98/BADMUSIC)
+# ғᴏʀ ᴇxᴛʀ ᴘʟᴜɢɪɴs [ʙᴀᴅᴍᴜsɪᴄ](https://github.com/Badhacker98/BADMUSIC)
 
 
-## Deployment for [ʙᴀᴅᴍᴜsɪᴄ](https://github.com/Badhacker98/BADMUSIC)
+## ғᴏʀ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ [ʙᴀᴅᴍᴜsɪᴄ](https://github.com/Badhacker98/BADMUSIC)
 
-#### 🚀 Heroku Deployment
+#### 🚀 ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
 
 <h4>Click the button below to deploy Bad Music Bot on Heroku!</h4>    
 <h4>If You show any error like failed to app Creation Then fork and deploy </h4>
 <a href="https://dashboard.heroku.com/new?template=https://github.com/Badhacker98/BADMUSIC"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-teal?style=for-the-badge&logo=heroku" width="200""/></a>
 
 
-### 🖇 VPS Deployment
+### 🖇 ᴠᴘs ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
 
 1.
 ```
@@ -108,4 +108,4 @@ ctrl + a+d
 ---
 
 
-# TG-CHAT-GROUP  [ᴘʙx ᴄʜᴀᴛ](https://t.me/PBX_CHAT)
+# ᴛɢ-ᴄʜᴀᴛ-ɢʀᴏᴜᴘ  [ᴘʙx ᴄʜᴀᴛ](https://t.me/PBX_CHAT)
