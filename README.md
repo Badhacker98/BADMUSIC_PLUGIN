@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://graph.org/file/bda0653b787e7530f5110.jpg">
+</p>
+
 # Extra Plugins For [ʙᴀᴅᴍᴜsɪᴄ](https://github.com/Badhacker98/BADMUSIC)
 
 
