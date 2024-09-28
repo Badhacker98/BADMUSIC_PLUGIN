@@ -1,5 +1,5 @@
 import random
-from VIPMUSIC.utils.database import get_served_chats
+from BADMUSIC.utils.database import get_served_chats
 from pyrogram import Client, filters
 
 from BADMUSIC import app
