@@ -82,9 +82,9 @@ async def get_link_group(client, message):
             except Exception:
                 pass
             return
-        except Exception:
-            pass
-            
+    except Exception:
+        pass
+        
 import os
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
