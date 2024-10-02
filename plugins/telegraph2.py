@@ -84,7 +84,7 @@ async def get_link_group(client, message):
             return
     except Exception:
         
-passimport os
+import os
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from BADMUSIC import app
