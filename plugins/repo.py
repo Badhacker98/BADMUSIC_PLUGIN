@@ -25,7 +25,7 @@ async def start(client: Client, message: Message):
                 text="☆ ᴄʜᴀɴɴᴇʟ 💗 ", url=f"https://t.me/HEROKUBIN_01"
             ),
             InlineKeyboardButton(
-                text="☆ ʀᴇᴘᴏ 💗", url=f"https://github.com/Badhacker98/BADMUSIC/blob/bad/BADMUSIC/fork"
+                text="☆ ʀᴇᴘᴏ 💗", url=f"https://github.com/Badhacker98/BADMUSIC/fork"
             ),
         ],
                 [
