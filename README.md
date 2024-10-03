@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://graph.org/file/bda0653b787e7530f5110.jpg">
+  <img src="https://envs.sh/WA4.jpg">
 </p>
 
 # ғᴏʀ ᴇxᴛʀ ᴘʟᴜɢɪɴs [ʙᴀᴅᴍᴜsɪᴄ](https://github.com/Badhacker98/BADMUSIC)
