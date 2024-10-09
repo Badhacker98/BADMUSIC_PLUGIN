@@ -177,13 +177,13 @@ def welcomepic(user_id, user_username, user_names, chat_name, user_photo, chat_p
     font = ImageFont.truetype("assets/font.ttf", size=32)
 
   
-    saffron = (255, 153, 51)  
-    white = (255, 255, 255)   
-    green = (19, 136, 8)
+    black = (255, 153, 51)  
+    black = (255, 255, 255)   
+    black = (19, 136, 8)
 
-    draw.text((510, 517), f"Name:  {user_names}", fill=saffron, font=font)
-    draw.text((510, 547), f"User Id:  {user_id}", fill=white, font=font)
-    draw.text((510, 580), f"Username:  {user_username}", fill=green, font=font)
+    draw.text((510, 517), f"Name:  {user_names}", fill=black, font=font)
+    draw.text((510, 547), f"User Id:  {user_id}", fill=black, font=font)
+    draw.text((510, 580), f"Username:  {user_username}", fill=black, font=font)
     
     background.save(f"downloads/welcome#{user_id}.png")
     return f"downloads/welcome#{user_id}.png"
