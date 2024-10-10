@@ -1,4 +1,5 @@
 apscheduler
+pyshorteners
 bing-image-urls
 gTTS
 googlesearch-python
