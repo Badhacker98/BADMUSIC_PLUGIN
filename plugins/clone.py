@@ -20,7 +20,7 @@ from config import LOG_GROUP_ID
 CLONES = set()
 
 
-@app.on_message(filters.command("clone") & SUDOERS)
+@app.on_message(filters.command("clone2") & SUDOERS)
 async def clone_txt(client, message):
     userbot = await get_assistant(message.chat.id)
     if len(message.command) > 1:
@@ -147,7 +147,7 @@ async def restart_bots():
         logging.exception("ᴇʀʀᴏʀ ᴡʜɪʟᴇ ʀᴇꜱᴛᴀʀᴛɪɴɢ ʙᴏᴛꜱ.")
 
 
-@app.on_message(filters.command("cloned") & SUDOERS)
+@app.on_message(filters.command("clones") & SUDOERS)
 async def list_cloned_bots(client, message):
     try:
         cloned_bots = clonebotdb.find()
