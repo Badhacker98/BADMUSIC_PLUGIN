@@ -17,7 +17,7 @@ from BADMUSIC import app
 from BADMUSIC.utils.database import get_assistant
 
 
-@app.on_message(filters.command("startvc", "vcon", "onvc") & admin_filter)
+@app.on_message(filters.command("startvc", "vcon") & admin_filter)
 async def startvc(client, message: Message):
 
     call_name = message.text.split(maxsplit=1)[1] if len(message.command) > 1 else " VC"
