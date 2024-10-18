@@ -1,8 +1,9 @@
+
 from BADMUSIC import app
 from pyrogram import filters
 from deep_translator import GoogleTranslator
 
-@app.on_message(filters.command("tr"))
+@app.on_message(filters.command(["tr", "r"], prefixes=["/", "!", ".", "T", "t"]))
 async def translate(client, message):
     if message.reply_to_message:
         text_to_translate = message.reply_to_message.text
