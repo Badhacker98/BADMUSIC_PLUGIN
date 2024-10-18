@@ -104,8 +104,7 @@ async def delete_cloned_bot(client, message):
             return
 
         bot_token = " ".join(message.command[1:])
-        await message.reply_text("ᴘʀᴏᴄᴇꜱꜱɪɴɢ ᴛʜᴇ ʙᴏᴛ ᴛᴏᴋᴇɴ
-        ...")
+        await message.reply_text("ᴘʀᴏᴄᴇꜱꜱɪɴɢ ᴛʜᴇ ʙᴏᴛ ᴛᴏᴋᴇɴ...")
 
         cloned_bot = clonebotdb.find_one({"token": bot_token})
         if cloned_bot:
