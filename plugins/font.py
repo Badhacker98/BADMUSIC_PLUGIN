@@ -1,4 +1,4 @@
-from ERAVIBES import app
+from BADMUSIC import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import filters
 
