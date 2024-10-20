@@ -92,7 +92,7 @@ def welcomepic(user_id, user_username, user_names, chat_name, user_photo, chat_p
     user_img_circle = circle(user_img, size=(190, 190), brightness_factor=1.2)
     
     background.paste(chat_img_circle, (270, 260), chat_img_circle)
-    background.paste(user_img_circle, (527, 260), user_img_circle)
+    background.paste(user_img_circle, (627, 360), user_img_circle)
     
     draw = ImageDraw.Draw(background)
     font = ImageFont.truetype("assets/font.ttf", size=32)
