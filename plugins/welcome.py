@@ -104,7 +104,7 @@ def welcomepic(user_id, user_username, user_names, chat_name, user_photo, chat_p
 
     draw.text((450, 447), f"Name:  {user_names}", fill=red, font=font)
     draw.text((450, 487), f"User Id:  {user_id}", fill=red, font=font)
-    draw.text((450, 492), f"Username:  {user_username}", fill=red, font=font)
+    draw.text((450, 520), f"Username:  {user_username}", fill=red, font=font)
     
     background.save(f"downloads/welcome#{user_id}.png")
     return f"downloads/welcome#{user_id}.png"
