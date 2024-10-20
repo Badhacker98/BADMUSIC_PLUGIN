@@ -65,7 +65,7 @@ def circle(pfp, size=(80, 80), brightness_factor=10):
     
     violet = (148, 0, 211, 255)  
     blue = (0, 0, 255, 255)      
-    green = (19, 136, 8, 255)    
+    red = (19, 136, 8, 255)    
     
     outline_draw.ellipse((0, 0, outline.size[0], outline.size[1]), outline=violet, width=border_size_violet)
     outline_draw.ellipse((border_size_violet - border_size_blue, border_size_violet - border_size_blue,
