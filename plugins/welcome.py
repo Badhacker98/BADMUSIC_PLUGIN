@@ -77,7 +77,7 @@ def circle(pfp, size=(80, 80), brightness_factor=10):
     outline_draw.ellipse((border_size_violet, border_size_violet,
                           outline.size[0] - border_size_violet,
                           outline.size[1] - border_size_violet), 
-                          outline=green, width=border_size_violet)
+                          outline=red, width=border_size_violet)
 
     outline.paste(pfp, (border_size_violet, border_size_violet), pfp)
     
