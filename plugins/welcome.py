@@ -99,12 +99,12 @@ def welcomepic(user_id, user_username, user_names, chat_name, user_photo, chat_p
 
   
     red = (255, 153, 51)  
-    red = (255, 255, 255)   
-    red = (19, 136, 8)
+    pink = (255, 255, 255)   
+    yellow = (19, 136, 8)
 
     draw.text((450, 443), f"Name:  {user_names}", fill=red, font=font)
-    draw.text((450, 483), f"User Id:  {user_id}", fill=red, font=font)
-    draw.text((450, 515), f"Username:  {user_username}", fill=red, font=font)
+    draw.text((450, 483), f"User Id:  {user_id}", fill=pink, font=font)
+    draw.text((450, 515), f"Username:  {user_username}", fill=yellow, font=font)
     
     background.save(f"downloads/welcome#{user_id}.png")
     return f"downloads/welcome#{user_id}.png"
