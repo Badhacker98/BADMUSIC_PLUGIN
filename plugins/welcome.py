@@ -92,7 +92,7 @@ def welcomepic(user_id, user_username, user_names, chat_name, user_photo, chat_p
     user_img_circle = circle(user_img, size=(190, 190), brightness_factor=1.2)
     
     background.paste(chat_img_circle, (270, 260), chat_img_circle)
-    background.paste(user_img_circle, (627, 360), user_img_circle)
+    background.paste(user_img_circle, (727, 260), user_img_circle)
     
     draw = ImageDraw.Draw(background)
     font = ImageFont.truetype("assets/font.ttf", size=32)
@@ -102,9 +102,9 @@ def welcomepic(user_id, user_username, user_names, chat_name, user_photo, chat_p
     white = (255, 255, 255)   
     green = (19, 136, 8)
 
-    draw.text((410, 517), f"Name:  {user_names}", fill=saffron, font=font)
-    draw.text((410, 547), f"User Id:  {user_id}", fill=white, font=font)
-    draw.text((410, 580), f"Username:  {user_username}", fill=green, font=font)
+    draw.text((450, 517), f"Name:  {user_names}", fill=saffron, font=font)
+    draw.text((450, 547), f"User Id:  {user_id}", fill=white, font=font)
+    draw.text((450, 580), f"Username:  {user_username}", fill=green, font=font)
     
     background.save(f"downloads/welcome#{user_id}.png")
     return f"downloads/welcome#{user_id}.png"
