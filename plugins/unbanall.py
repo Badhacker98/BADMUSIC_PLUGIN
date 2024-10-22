@@ -1,5 +1,3 @@
-
-
 from pyrogram import enums, filters
 from BADMUSIC import app
 
